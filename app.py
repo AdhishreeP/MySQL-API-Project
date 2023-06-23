@@ -54,4 +54,4 @@ def admin_portal():
         return render_template('admin.html', form=form, message=message)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=False,host='0.0.0.0')
